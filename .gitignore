@@ -7,9 +7,7 @@ tmp/
 node_modules/
 jaxws/jaxws-client/src/main/
 
-# Ignore the VAADIN simlink directories but keep the actual VAADIN directory...
-VAADIN/
-!constellation-web/src/main/webapp/VAADIN/
+webpack.generated.js
 
 # Database backup files for constellation-db docker image
 *.bak
