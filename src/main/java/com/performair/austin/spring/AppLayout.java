@@ -12,7 +12,6 @@ import com.vaadin.flow.templatemodel.TemplateModel;
 
 @Tag("app-layout")
 @JsModule("./src/app-layout.js")
-@JsModule("./src/header-logo.js")
 public class AppLayout extends PolymerTemplate<AppLayout.AppLayoutModel> {
 
     @Id("header")
