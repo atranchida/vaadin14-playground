@@ -18,7 +18,7 @@ class AppLayout extends PolymerElement {
                 }
                 
                 #header {
-                    height: 150px;
+                    height: 50px;
                 }
                 
                 #content {
@@ -28,9 +28,7 @@ class AppLayout extends PolymerElement {
                 
             </style>
 <vaadin-vertical-layout id="page">
- <vaadin-horizontal-layout id="header">
-    <header-logo id="logo"></header-logo>
-</vaadin-horizontal-layout>
+ <vaadin-horizontal-layout id="header"></vaadin-horizontal-layout>
  <div id="content">content</div>
 </vaadin-vertical-layout>
 `;
