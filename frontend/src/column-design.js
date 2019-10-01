@@ -6,11 +6,6 @@ class ColumnDesign extends PolymerElement {
         return html`
 <style include="shared-styles">
 
-.column {
-  margin: 10px;
-  width: 100%;
-}
-
 .column > * { 
     background-color: #e2e4e6;
     color: #333;
@@ -48,12 +43,7 @@ class ColumnDesign extends PolymerElement {
  <header>
   <span id="column-header">Column Header </span>
  </header>
- <ul>
-  <li>Lorem ipsum dolor sit amet</li>
-  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis enim sit amet</li>
-  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis enim sit amet metus laoreet, ut condimentum</li>
- </ul>
+ <div id="card-layout"></div>
  <footer>
   <vaadin-button theme="icon" aria-label="Add new">
    <iron-icon icon="lumo:plus"></iron-icon>
