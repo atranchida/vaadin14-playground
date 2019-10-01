@@ -5,40 +5,32 @@ class ColumnDesign extends PolymerElement {
     static get template() {
         return html`
 <style include="shared-styles">
-
-.column > * { 
-    background-color: #e2e4e6;
-    color: #333;
-    padding: 0 10px;
-}
-  
-  .column header {
-    line-height: 36px;
-    font-size: 16px;
-    font-weight: bold;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-  
-  .column footer {
-    line-height: 36px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: #888;
-  }
-  
-  .column ul {
-    list-style: none;
-    margin: 0;
-    overflow-y: auto;
-  }
-  
-  .column li {
-      background-color: #fff;
-      padding: 10px;
-      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  }          
+    .column{
+        min-width: 250px;
+    }
+    
+    .column > * { 
+        background-color: #e2e4e6;
+        color: #333;
+        padding: 5px 10px;
+    }
+      
+    .column header {
+        line-height: 36px;
+        font-size: 16px;
+        font-weight: bold;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+      
+    .column footer {
+        line-height: 36px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: #888;
+    }     
 </style>
+
 <div class="column">
  <header>
   <span id="column-header">Column Header </span>

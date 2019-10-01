@@ -4,6 +4,6 @@ import com.vaadin.flow.router.Route;
 
 @Route("boardLayout")
 public class BoardLayoutView extends BoardLayout {
-    public BoardLayoutView(){
+    public BoardLayoutView() {
     }
 }

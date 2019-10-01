@@ -20,7 +20,7 @@ public class Column extends PolymerTemplate<TemplateModel> {
         header.setText(name);
     }
 
-    public void addCard(Card card){
+    public void addCard(Card card) {
         cardLayout.add(card);
     }
 }

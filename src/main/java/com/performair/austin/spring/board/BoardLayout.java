@@ -21,7 +21,7 @@ public class BoardLayout extends PolymerTemplate<TemplateModel> implements HasCo
     @Id("div")
     private Element div;
 
-    public BoardLayout(){
+    public BoardLayout() {
         pageTitle.setText("Issue Tracker");
 
         Column column1 = new Column();
@@ -61,7 +61,7 @@ public class BoardLayout extends PolymerTemplate<TemplateModel> implements HasCo
         column5.addCard(new Card());
         columnLayout.add(column5);
 
-       Column column6 = new Column();
+        Column column6 = new Column();
         columnLayout.add(column6);
 
         Column column7 = new Column();
@@ -72,8 +72,5 @@ public class BoardLayout extends PolymerTemplate<TemplateModel> implements HasCo
 
         Column column9 = new Column();
         columnLayout.add(column9);
-
-        Column column10 = new Column();
-        columnLayout.add(column10);
     }
 }

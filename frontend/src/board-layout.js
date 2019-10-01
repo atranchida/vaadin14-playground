@@ -8,33 +8,34 @@ class BoardLayout extends PolymerElement {
         return html`
 <style include="shared-styles">
 
-body {
-    margin: 0;
-    font-size: 14px;
-}
-
-.main-layout {
-  background-color: #f2f3f4;
-  color: #393939;
-  padding: 0;
-  overflow: auto;
-}
-
-.navbar {
-  padding-left: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.navbar.title {
-    font-size: 1.1rem;
-  }
-  
-  :host{
-    width: 100%;
-  }
+    body {
+        margin: 0;
+        font-size: 14px;
+    }
+    
+    .main-layout {
+        background-color: #f2f3f4;
+        color: #393939;
+        padding: 0;
+        overflow: auto;
+    }
+    
+    .navbar {
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar.title {
+        font-size: 1.1rem;
+    }
+      
+    :host{
+        width: 100%;
+    }
 
 </style>
+
 <vaadin-vertical-layout style="height: 100%;" class="main-layout">
  <nav class="navbar title" id="nav">
   <h3 id="title"></h3>
