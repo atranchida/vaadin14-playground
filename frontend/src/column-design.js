@@ -28,17 +28,21 @@ class ColumnDesign extends PolymerElement {
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         color: #888;
-    }     
+    }   
+    
+    .dragover {
+        border: 1px dashed blue;
+        background-color: #eff5ff;
+    }  
 </style>
-
 <div class="column">
  <header>
   <span id="column-header">Column Header </span>
  </header>
  <div id="card-layout"></div>
  <footer>
-  <vaadin-button theme="icon" aria-label="Add new">
-   <iron-icon icon="lumo:plus"></iron-icon>
+  <vaadin-button theme="icon" aria-label="Add new" id="btnColumn">
+   <iron-icon icon="lumo:plus" id="ironIcon"></iron-icon>
   </vaadin-button>
  </footer>
 </div>

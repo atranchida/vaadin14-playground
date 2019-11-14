@@ -110,6 +110,11 @@
             <artifactId>vaadin-testbench</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.vaadin.stefan</groupId>
+            <artifactId>dnd</artifactId>
+            <version>1.1.0</version>
+        </dependency>
     </dependencies>
 
     <build>

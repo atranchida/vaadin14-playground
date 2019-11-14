@@ -10,8 +10,9 @@ class CardDesign extends PolymerElement {
                     display: block;
                     height: 100%;
                 }
-                
-                .main-layout{
+                                
+                .card{
+                    font-size: 14px;
                     width: 250px;
                     height: 100%;
                     background-color: white;
@@ -19,11 +20,43 @@ class CardDesign extends PolymerElement {
                     margin-top: 8px;
                     padding: 10px;
                 }
+                
+                .issue-name {
+                    font-weight: bold;
+                }
+                
+                .milestone {
+                    color: gray;
+                }
+                
+                .issue-details {
+                    width: 100%;
+                    border-bottom: 1px solid #e5e5e5;
+                    margin-bottom: 5px;
+                }
+                     
+                .tag {
+                    background-color: lightsalmon;
+                    border-radius: 4px;
+                    padding: 4px;
+                }
             </style>
-<vaadin-vertical-layout class="main-layout">
- <span>Issue ID </span>
- <span>Issue Name </span>
- <span>Issue Details</span>
+<vaadin-vertical-layout class="card">
+ <vaadin-vertical-layout class="issue-details">
+  <span>Constellation #XXX </span>
+  <span class="issue-name">Issue Name</span>
+  <span class="milestone">Milestone </span>
+ </vaadin-vertical-layout>
+ <div class="tag-section" style="width: 100%;">
+  <label class="tag">tag</label>
+  <label class="tag">tag</label>
+  <label class="tag">tag</label>
+  <label class="tag">tag</label>
+  <label class="tag">tag</label>
+  <label class="tag">tag</label>
+  <label class="tag">tag</label>
+  <label class="tag">tag</label>
+ </div>
 </vaadin-vertical-layout>
 `;
     }
